@@ -12,8 +12,4 @@
     <StartupObject>CompiladorJava.Frontend.Program</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Update="Frontend\Ejemplos\*.txt" CopyToOutputDirectory="PreserveNewest" />
-  </ItemGroup>
-
 </Project>

@@ -518,7 +518,7 @@ namespace CompiladorJava.Frontend
             this.avisoLexico.Padding = new System.Windows.Forms.Padding(14, 0, 14, 0);
             this.avisoLexico.Size = new System.Drawing.Size(763, 48);
             this.avisoLexico.TabIndex = 1;
-            this.avisoLexico.Text = "El código no es una clase principal válida con main; corrige el error para continuar";
+            this.avisoLexico.Text = "El código no es una clase principal válida con main";
             this.avisoLexico.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.avisoLexico.Visible = false;
 
@@ -535,7 +535,7 @@ namespace CompiladorJava.Frontend
             this.avisoSintactico.Padding = new System.Windows.Forms.Padding(14, 0, 14, 0);
             this.avisoSintactico.Size = new System.Drawing.Size(763, 48);
             this.avisoSintactico.TabIndex = 1;
-            this.avisoSintactico.Text = "El código no es una clase principal válida con main; corrige el error para continuar";
+            this.avisoSintactico.Text = "El código no es una clase principal válida con main";
             this.avisoSintactico.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.avisoSintactico.Visible = false;
 
@@ -552,7 +552,7 @@ namespace CompiladorJava.Frontend
             this.avisoSemantico.Padding = new System.Windows.Forms.Padding(14, 0, 14, 0);
             this.avisoSemantico.Size = new System.Drawing.Size(763, 48);
             this.avisoSemantico.TabIndex = 1;
-            this.avisoSemantico.Text = "El código no es una clase principal válida con main; corrige el error para continuar";
+            this.avisoSemantico.Text = "El código no es una clase principal válida con main";
             this.avisoSemantico.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.avisoSemantico.Visible = false;
 
@@ -571,7 +571,7 @@ namespace CompiladorJava.Frontend
             this.MinimumSize = new System.Drawing.Size(1100, 600);
             this.Name = "VentanaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Simulador de análisis de compilador Java";
+            this.Text = "";
             this.Load += new System.EventHandler(this.VentanaPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tablaLexico)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tablaErrores)).EndInit();
